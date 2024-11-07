@@ -37,7 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'newpractice'
+    'newpractice',
+    'app1',
+    'rest_framework',
 ]
 
 MIDDLEWARE = [
@@ -63,6 +65,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                
             ],
         },
     },
@@ -76,8 +79,12 @@ WSGI_APPLICATION = 'practice.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',  # Use PostgreSQL as the backend
+        'NAME': 'book',               # Replace with your database name
+        'USER': 'postgres',               # Replace with your database user
+        'PASSWORD': 'root',       # Replace with your database password
+        'HOST': 'localhost',                        # Set to 'localhost' if running locally, or specify the IP address or domain name for remote
+        'PORT': '5432',                             # Default PostgreSQL port
     }
 }
 
