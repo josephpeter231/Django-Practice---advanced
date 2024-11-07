@@ -3,7 +3,7 @@
 This checklist covers the basics of Django, Django Rest Framework, and related topics. Use this as a guide to keep track of essential learning topics.
 
 ## Django Core Concepts
-- [ - ] **Basics of Django**
+- [x] **Basics of Django**
   - Understanding the Django framework, project structure, and core concepts.
 
 - [ ] **Django Multi-App Architecture**
