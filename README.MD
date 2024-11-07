@@ -53,4 +53,4 @@ This checklist covers the basics of Django, Django Rest Framework, and related t
 
 ---
 
-Happy coding! :rocket:
+
