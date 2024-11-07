@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'newpractice',
     'app1',
+    'login',
     'rest_framework',
 ]
 
