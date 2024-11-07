@@ -6,15 +6,15 @@ This checklist covers the basics of Django, Django Rest Framework, and related t
 - [x] **Basics of Django**
   - Understanding the Django framework, project structure, and core concepts.
 
-- [ ] **Django Multi-App Architecture**
+- [x] **Django Multi-App Architecture**
   - Structuring and managing a project with multiple apps.
   - Using app namespaces to handle URLs and view conflicts.
 
 ## Django Rest Framework (DRF)
-- [ ] **DRF Basics**
+- [x] **DRF Basics**
   - Overview of Django Rest Framework and its integration with Django.
 
-- [ ] **Viewsets**
+- [x] **Viewsets**
   - Creating and managing viewsets to streamline API views.
 
 - [ ] **Serializers**
@@ -53,4 +53,4 @@ This checklist covers the basics of Django, Django Rest Framework, and related t
 
 ---
 
-Happy coding! :rocket:
+
