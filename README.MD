@@ -1,6 +1,6 @@
 # Django and DRF Learning Checklist
 
-This checklist covers the basics of Django, Django Rest Framework, and related topics. Use this as a guide to keep track of essential learning topics.
+Checklist for 07-11-24
 
 ## Django Core Concepts
 - [x] **Basics of Django**
